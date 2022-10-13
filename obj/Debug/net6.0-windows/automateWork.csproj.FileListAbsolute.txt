@@ -18,3 +18,5 @@ C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-win
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Debug\net6.0-windows\es-CO\automateWork.resources.dll
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\automateWork.Form1.es-CO.resources
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\es-CO\automateWork.resources.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\automateWork.csproj.CopyComplete

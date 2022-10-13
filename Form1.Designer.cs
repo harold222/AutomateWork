@@ -77,6 +77,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         #endregion
