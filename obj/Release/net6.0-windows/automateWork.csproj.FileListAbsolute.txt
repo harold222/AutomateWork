@@ -1,0 +1,17 @@
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Release\net6.0-windows\automateWork.exe
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Release\net6.0-windows\automateWork.deps.json
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Release\net6.0-windows\automateWork.runtimeconfig.json
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Release\net6.0-windows\automateWork.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Release\net6.0-windows\automateWork.pdb
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.csproj.AssemblyReference.cache
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.Form1.resources
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.csproj.GenerateResource.cache
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.AssemblyInfoInputs.cache
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.AssemblyInfo.cs
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.csproj.CoreCompileInputs.cache
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\refint\automateWork.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.pdb
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\automateWork.genruntimeconfig.cache
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Release\net6.0-windows\ref\automateWork.dll
