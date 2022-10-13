@@ -15,3 +15,6 @@ C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-win
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\automateWork.pdb
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\automateWork.genruntimeconfig.cache
 C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\ref\automateWork.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\bin\Debug\net6.0-windows\es-CO\automateWork.resources.dll
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\automateWork.Form1.es-CO.resources
+C:\Users\harold.pedraza\Documents\GitHub\.net6\automateWork\obj\Debug\net6.0-windows\es-CO\automateWork.resources.dll
