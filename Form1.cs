@@ -50,7 +50,7 @@ namespace automateWork
 
                 if (this.folderConfig.allowDecompress == "S")
                 {
-                    verifyCompressed vf = new(pathCreate);
+                    verifyCompressed vf = new(this.folderConfig.pathSearchCompressed, pathCreate, this.folderConfig.compressedFormat);
                     this.thr = new Thread(new ThreadStart(vf.timeOutVerify));
                     this.thr.Start();
                 }

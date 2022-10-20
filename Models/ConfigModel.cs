@@ -7,6 +7,7 @@
 
     public class PropertiesConfigFolder
     {
+        public string pathSearchCompressed { get; set; }
         public string pathCreateFolder { get; set; }
 
         public string pathToCopyFiles { get; set; }

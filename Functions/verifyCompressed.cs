@@ -1,35 +1,59 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+using System.IO.Compression;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace automateWork.Functions
 {
     public class verifyCompressed
     {
-        private string path;
+        private string pathExtract, extension, pathSearch;
 
-        public verifyCompressed(string _path)
+        public verifyCompressed(string _pathSearch, string _pathExtract, string _extension)
         {
-            this.path = _path;
+            this.pathExtract = _pathExtract;
+            this.extension = _extension;
+            this.pathSearch = _pathSearch;
         }
 
         public void timeOutVerify()
         {
             bool foundCompressed = false;
 
-            while (!foundCompressed)
+            try
             {
-                DirectoryInfo dir = new DirectoryInfo(this.path);
-                FileInfo[] files = dir.GetFiles();
+                while (!foundCompressed)
+                {
+                    DirectoryInfo dir = new DirectoryInfo(this.pathSearch);
+                    FileInfo[] files = dir.GetFiles($"*.{this.extension.ToLower()}");
 
-                //if ()
-                //{
-                //    foundCompressed = true;
-                //}
-                Thread.Sleep(30000);
+                    // obtiene un listado de todos los archivos con esa extension, si
+                    // hay mas de uno se deberian mostrar en forma de lista en el programa
+                    // para que el usuario escoja cual quiere escojer
+
+                    // una vez se escoja se busca por ese nombre, se corta ese archivo se pega
+                    // en la ruta de crear, se descomprime y se elimina ese archivo
+
+                    if (files?.Length > 0)
+                    {
+                        FileInfo? fileCompressed = files.FirstOrDefault();
+                        if (fileCompressed != null)
+                        {
+                            ZipFile.ExtractToDirectory(fileCompressed.FullName, this.pathExtract);
+                            File.Delete(fileCompressed.FullName);
+                            //if ()
+                            //{
+                            //    foundCompressed = true;
+                            //}
+                        }
+                        else Thread.Sleep(30000);
+                    }
+                    else Thread.Sleep(30000);
+                }
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex.ToString());
             }
         }
     }
